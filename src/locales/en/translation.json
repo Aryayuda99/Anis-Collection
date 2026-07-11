@@ -1,0 +1,24 @@
+﻿{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "order": "Order via WhatsApp"
+  },
+  "hero": {
+    "badge": "Established Since 1997",
+    "title1": "Authentic Balinese",
+    "title2": "Handicrafts",
+    "description": "Discover the soul of Bali through our handcrafted collection, souvenirs, bags, aromatherapy, and wooden crafts made by skilled artisans carrying generations of tradition.",
+    "button1": "View Products",
+    "button2": "Chat via WhatsApp"
+  },
+  "about": {
+    "title": "Crafting Balinese Heritage Since 1997",
+    "paragraph1": "Ani's Collection was founded in 1997 with a simple but passionate mission: to bring the beauty of authentic Balinese craftsmanship to the world. What began as a small family workshop in Bali has grown into a trusted name among international buyers.",
+    "paragraph2": "Every product in our collection is handcrafted by local Balinese artisans using traditional techniques passed down through generations. We take pride in preserving these ancient art forms while delivering world-class quality to customers across Australia, Russia, Jamaica, and beyond.",
+    "paragraph3": "As a family-owned business, we personally oversee every piece - ensuring that each item tells the true story of Balinese culture and craftsmanship."
+  }
+}

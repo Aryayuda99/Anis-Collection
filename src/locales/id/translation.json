@@ -1,0 +1,24 @@
+﻿{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "products": "Produk",
+    "testimonials": "Testimoni",
+    "contact": "Kontak",
+    "order": "Pesan via WhatsApp"
+  },
+  "hero": {
+    "badge": "Berdiri Sejak 1997",
+    "title1": "Kerajinan Tangan",
+    "title2": "Khas Bali",
+    "description": "Temukan keindahan Bali melalui koleksi kerajinan tangan kami, mulai dari souvenir, tas, aromaterapi, hingga kerajinan kayu yang dibuat oleh para pengrajin berpengalaman.",
+    "button1": "Lihat Produk",
+    "button2": "Chat via WhatsApp"
+  },
+  "about": {
+    "title": "Melestarikan Warisan Kerajinan Bali Sejak 1997",
+    "paragraph1": "Ani's Collection didirikan pada tahun 1997 dengan misi sederhana namun penuh semangat, yaitu menghadirkan keindahan kerajinan tangan khas Bali ke seluruh dunia. Berawal dari sebuah usaha keluarga kecil di Bali, kini berkembang menjadi nama yang dipercaya oleh pembeli dari berbagai negara.",
+    "paragraph2": "Setiap produk dibuat secara handmade oleh para pengrajin lokal Bali menggunakan teknik tradisional yang diwariskan dari generasi ke generasi. Kami bangga menjaga warisan budaya tersebut sekaligus menghadirkan kualitas terbaik bagi pelanggan.",
+    "paragraph3": "Sebagai usaha keluarga, kami mengawasi langsung setiap proses pembuatan agar setiap karya benar-benar mencerminkan budaya, nilai, dan keindahan seni Bali."
+  }
+}
