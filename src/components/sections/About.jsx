@@ -66,10 +66,6 @@ function About() {
                 {t("about.paragraph2")}
               </p>
 
-              <p className="text-[16px] leading-[38px] text-text/80">
-                {t("about.paragraph3")}
-              </p>
-
             </div>
 
           </div>

@@ -1,26 +1,30 @@
 import { Menu } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
+import logo from "../../assets/images/Logo.png";
+
 export default function Navbar() {
   const { t, i18n } = useTranslation();
 
   return (
-    <header className="absolute top-0 left-0 w-full z-50">
-      <div className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
+    <header className="absolute top-0 left-0 z-50 w-full">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-6">
 
         {/* Logo */}
         <div className="flex items-center gap-3">
 
-          <div className="w-11 h-11 rounded-full bg-red-700 flex items-center justify-center text-white font-bold">
-            A
-          </div>
+          <img
+            src={logo}
+            alt="Ani's Collection"
+            className="h-12 w-12 object-contain"
+          />
 
           <div>
-            <h1 className="text-red-500 font-semibold">
+            <h1 className="font-semibold text-red-500">
               Ani's Collection
             </h1>
 
-            <p className="text-white/80 text-xs tracking-[3px]">
+            <p className="text-xs tracking-[3px] text-white/80">
               BALI HANDICRAFTS
             </p>
           </div>
@@ -28,39 +32,39 @@ export default function Navbar() {
         </div>
 
         {/* Menu */}
-        <nav className="hidden lg:flex gap-10 text-white font-medium">
+        <nav className="hidden gap-10 font-medium text-white lg:flex">
 
-          <a href="#home" className="hover:text-yellow-400 transition">
+          <a href="#home" className="transition hover:text-yellow-400">
             {t("navbar.home")}
           </a>
 
-          <a href="#about" className="hover:text-yellow-400 transition">
+          <a href="#about" className="transition hover:text-yellow-400">
             {t("navbar.about")}
           </a>
 
-          <a href="#products" className="hover:text-yellow-400 transition">
+          <a href="#products" className="transition hover:text-yellow-400">
             {t("navbar.products")}
           </a>
 
-          <a href="#testimonials" className="hover:text-yellow-400 transition">
+          <a href="#testimonials" className="transition hover:text-yellow-400">
             {t("navbar.testimonials")}
           </a>
 
-          <a href="#contact" className="hover:text-yellow-400 transition">
+          <a href="#contact" className="transition hover:text-yellow-400">
             {t("navbar.contact")}
           </a>
 
         </nav>
 
         {/* Right */}
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden items-center gap-4 lg:flex">
 
           {/* Language Switch */}
-          <div className="bg-white rounded-full p-1 flex">
+          <div className="flex rounded-full bg-white p-1">
 
             <button
               onClick={() => i18n.changeLanguage("en")}
-              className={`px-4 py-1 rounded-full text-sm transition ${
+              className={`rounded-full px-4 py-1 text-sm transition ${
                 i18n.language === "en"
                   ? "bg-red-700 text-white"
                   : "text-gray-700"
@@ -71,7 +75,7 @@ export default function Navbar() {
 
             <button
               onClick={() => i18n.changeLanguage("id")}
-              className={`px-4 py-1 rounded-full text-sm transition ${
+              className={`rounded-full px-4 py-1 text-sm transition ${
                 i18n.language === "id"
                   ? "bg-red-700 text-white"
                   : "text-gray-700"
@@ -83,16 +87,14 @@ export default function Navbar() {
           </div>
 
           {/* WhatsApp Button */}
-          <button className="bg-red-700 hover:bg-red-800 duration-300 text-white px-6 py-3 rounded-full">
-
+          <button className="rounded-full bg-red-700 px-6 py-3 text-white duration-300 hover:bg-red-800">
             {t("navbar.order")}
-
           </button>
 
         </div>
 
         {/* Mobile */}
-        <button className="lg:hidden text-white">
+        <button className="text-white lg:hidden">
           <Menu />
         </button>
 

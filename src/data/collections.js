@@ -2,7 +2,7 @@ export const collections = [
   {
     icon: "🗿",
     title: "Statues & Sculptures",
-    description: "Handcrafted wooden statues and decorative carvings.",
+    description: "Handcrafted statues & carvings.",
   },
   {
     icon: "🎭",
