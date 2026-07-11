@@ -1,7 +1,5 @@
 import { useTranslation } from "react-i18next";
 
-import aboutImage from "../../assets/images/about.jpeg";
-
 import patung1 from "../../assets/images/patung kayu warna/patung 1.png";
 import patung2 from "../../assets/images/patung kayu warna/patung 2.png";
 import patung3 from "../../assets/images/patung kayu warna/patung 3.png";
@@ -52,15 +50,15 @@ import alatmusik4 from "../../assets/images/alat musik/musik 4.png";
 
 const products = [
   {
-    title: "Hand-Painted Wooden Statues",
+    titleKey: "products.categories.woodenStatues",
     images: [patung1, patung2, patung3],
   },
   {
-    title: "Balinese Magnets",
+    titleKey: "products.categories.balineseMagnets",
     images: [magnetbali1, magnetbali2, magnetbali3, magnetbali4],
   },
   {
-    title: "Airbrushed Magnets",
+    titleKey: "products.categories.airbrushedMagnets",
     images: [
       magnetairbrush1,
       magnetairbrush2,
@@ -69,7 +67,7 @@ const products = [
     ],
   },
   {
-  title: "Calendar",
+  titleKey: "products.categories.calendar",
   images: [
     kalender1,
     kalender2,
@@ -78,23 +76,23 @@ const products = [
   ],
 },
   {
-    title: "Keychains",
+    titleKey: "products.categories.keychains",
     images: [ganci1, ganci2, kalender1, kalender2],
   },
   {
-    title: "Ashtrays",
+    titleKey: "products.categories.ashtrays",
     images: [asbak1, asbak2, asbak3, asbak4],
   },
   {
-    title: "Glassware",
+    titleKey: "products.categories.glassware",
     images: [gelas1, gelas2, gelas3, gelas4],
   },
   {
-    title: "Musical Instruments",
+    titleKey: "products.categories.musicalInstruments",
     images: [alatmusik1, alatmusik2, alatmusik3, alatmusik4],
   },
   {
-    title: "Balinese Masks",
+    titleKey: "products.categories.balineseMasks",
     images: [topeng1, topeng2, topeng3, topeng4],
   },
 ];
@@ -114,11 +112,11 @@ function Products() {
         <div className="text-center">
 
           <span className="inline-flex rounded-full bg-primary/10 px-5 py-2 text-[11px] font-semibold uppercase tracking-[2.5px] text-primary">
-            Featured Products
+            {t("products.badge")}
           </span>
 
           <h2 className="mt-7 font-serif text-[44px] font-bold text-dark">
-            Handpicked for You
+            {t("products.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
@@ -128,8 +126,7 @@ function Products() {
           </div>
 
           <p className="mx-auto mt-8 max-w-[560px] text-[18px] leading-8 text-text/70">
-            A curated selection of our finest Balinese creations, each handmade
-            with care and cultural authenticity.
+            {t("products.description")}
           </p>
 
         </div>
@@ -140,14 +137,14 @@ function Products() {
 
           {products.map((category) => (
 
-            <div key={category.title}>
+            <div key={category.titleKey}>
 
               <div className="mb-12 flex items-center justify-center gap-3">
 
                 <span className="text-secondary">✦ ✦</span>
 
                 <h3 className="font-serif text-[24px] font-bold text-dark">
-                  {category.title}
+                  {t(category.titleKey)}
                 </h3>
 
                 <span className="text-secondary">✦ ✦</span>
@@ -168,7 +165,7 @@ function Products() {
     >
       <img
         src={image}
-        alt={`${category.title} ${index + 1}`}
+        alt={`${t(category.titleKey)} ${index + 1}`}
         className="aspect-square w-full object-cover transition duration-500 hover:scale-105"
       />
     </div>
@@ -192,7 +189,7 @@ function Products() {
                 <span className="text-secondary">✦ ✦</span>
 
                 <h3 className="font-serif text-[24px] font-bold text-dark">
-                  Coat Hooks
+                  {t("products.categories.coatHooks")}
                 </h3>
 
                 <span className="text-secondary">✦ ✦</span>
@@ -210,7 +207,7 @@ function Products() {
 
                     <img
                       src={image}
-                      alt="Coat Hooks"
+                      alt={t("products.categories.coatHooks")}
                       className="aspect-square w-full object-cover transition duration-500 hover:scale-105"
                     />
 
@@ -231,7 +228,7 @@ function Products() {
                 <span className="text-secondary">✦ ✦</span>
 
                 <h3 className="font-serif text-[24px] font-bold text-dark">
-                  Hanging Ornaments
+                  {t("products.categories.hangingOrnaments")}
                 </h3>
 
                 <span className="text-secondary">✦ ✦</span>
@@ -249,7 +246,7 @@ function Products() {
 
                     <img
                       src={image}
-                      alt="Hanging Ornaments"
+                      alt={t("products.categories.hangingOrnaments")}
                       className="aspect-square w-full object-cover transition duration-500 hover:scale-105"
                     />
 

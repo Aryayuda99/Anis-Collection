@@ -4,21 +4,18 @@ import { useTranslation } from "react-i18next";
 const testimonials = [
   {
     name: "Emily Johnson",
-    country: "Australia",
-    review:
-      "Exceptional quality and authentic Balinese artistry. The wooden dragon statue I purchased is a true masterpiece. International shipping was smooth and the packaging was excellent. Highly recommended!",
+    countryKey: "testimonials.items.emily.country",
+    reviewKey: "testimonials.items.emily.review",
   },
   {
     name: "Alexander Ivanov",
-    country: "Russia",
-    review:
-      "Exceptional quality and authentic Balinese artistry. The wooden dragon statue I purchased is a true masterpiece. International shipping was smooth and the packaging was excellent. Highly recommended!",
+    countryKey: "testimonials.items.alexander.country",
+    reviewKey: "testimonials.items.alexander.review",
   },
   {
     name: "Maria Gonzalez",
-    country: "Spain",
-    review:
-      "Exceptional quality and authentic Balinese artistry. The wooden dragon statue I purchased is a true masterpiece. International shipping was smooth and the packaging was excellent. Highly recommended!",
+    countryKey: "testimonials.items.maria.country",
+    reviewKey: "testimonials.items.maria.review",
   },
 ];
 
@@ -36,11 +33,11 @@ function Testimonials() {
         <div className="text-center">
 
           <span className="inline-flex rounded-full bg-white/10 px-5 py-2 text-[11px] font-semibold uppercase tracking-[2.5px] text-white">
-            Testimonials
+            {t("testimonials.badge")}
           </span>
 
           <h2 className="mt-7 font-serif text-[44px] font-bold text-[#FFF8F0]">
-            What Our Customers Say
+            {t("testimonials.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
@@ -50,8 +47,7 @@ function Testimonials() {
           </div>
 
           <p className="mx-auto mt-8 max-w-[560px] text-[18px] leading-8 text-white/70">
-            Trusted by buyers from around the world. Here is what they say
-            about Ani's Collection.
+            {t("testimonials.description")}
           </p>
 
         </div>
@@ -78,7 +74,7 @@ function Testimonials() {
             >
 
               <p className="min-h-[210px] text-[18px] leading-8 text-white/70">
-                "{item.review}"
+                "{t(item.reviewKey)}"
               </p>
 
               <div className="mt-8 flex items-center gap-4">
@@ -103,7 +99,7 @@ function Testimonials() {
                   </h4>
 
                   <p className="text-sm text-white/60">
-                    {item.country}
+                    {t(item.countryKey)}
                   </p>
 
                 </div>

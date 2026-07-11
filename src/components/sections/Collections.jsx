@@ -1,7 +1,10 @@
 import { collections } from "../../data/collections";
 import CardCollection from "./CardCollection";
+import { useTranslation } from "react-i18next";
 
 function Collections() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-[#3E2723] py-24">
 
@@ -10,11 +13,11 @@ function Collections() {
         <div className="text-center">
 
           <span className="inline-block rounded-full bg-white/10 px-5 py-2 text-[11px] font-semibold uppercase tracking-[2.5px] text-white">
-            Our Collections
+            {t("collections.badge")}
           </span>
 
           <h2 className="mt-8 font-serif text-[44px] font-bold text-[#FFF8F0]">
-            Explore Our Range
+            {t("collections.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
@@ -28,8 +31,7 @@ function Collections() {
           </div>
 
           <p className="mx-auto mt-8 max-w-[576px] text-[18px] leading-[29px] text-white/75">
-            Authentic Balinese handicrafts, each piece crafted with devotion
-            and cultural pride.
+            {t("collections.description")}
           </p>
 
         </div>
@@ -38,7 +40,7 @@ function Collections() {
 
           {collections.map((item) => (
             <CardCollection
-              key={item.title}
+              key={item.titleKey}
               item={item}
             />
           ))}

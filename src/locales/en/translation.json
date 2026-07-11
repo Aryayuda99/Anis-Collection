@@ -1,11 +1,16 @@
-﻿{
+{
+  "brand": {
+    "name": "Ani's Collection"
+  },
   "navbar": {
     "home": "Home",
     "about": "About",
     "products": "Products",
     "testimonials": "Testimonials",
     "contact": "Contact",
-    "order": "Order via WhatsApp"
+    "order": "Order via WhatsApp",
+    "logoAlt": "Ani's Collection",
+    "tagline": "BALI HANDICRAFTS"
   },
   "hero": {
     "badge": "Established Since 1997",
@@ -18,6 +23,113 @@
   "about": {
     "title": "Crafting Balinese Heritage Since 1997",
     "paragraph1": "Ani's Collection was founded in 1997 with a passion for sharing authentic Balinese handicrafts with the world. Starting as a family-owned workshop in Bali, we have grown into a trusted destination for handcrafted art loved by customers across many countries.",
-    "paragraph2": "Every piece is carefully handmade by skilled local artisans using traditional techniques passed down through generations. We are committed to preserving Bali's rich cultural heritage while delivering quality craftsmanship and timeless designs."
+    "paragraph2": "Every piece is carefully handmade by skilled local artisans using traditional techniques passed down through generations. We are committed to preserving Bali's rich cultural heritage while delivering quality craftsmanship and timeless designs.",
+    "imageAlt": "About Ani's Collection"
+  },
+  "stats": {
+    "yearFounded": "Year Founded",
+    "handmadeProducts": "Handmade Products",
+    "retailPartners": "Retail Partners",
+    "yearsExperience": "Years of Experience"
+  },
+  "collections": {
+    "badge": "Our Collections",
+    "title": "Explore Our Range",
+    "description": "Authentic Balinese handicrafts, each piece crafted with devotion and cultural pride.",
+    "explore": "Explore",
+    "items": {
+      "statues": {
+        "title": "Statues & Sculptures",
+        "description": "Handcrafted statues & carvings."
+      },
+      "masks": {
+        "title": "Masks & Wall Decor",
+        "description": "Traditional masks and handcrafted wall decor."
+      },
+      "souvenirs": {
+        "title": "Souvenirs & Gifts",
+        "description": "Authentic magnets, mugs, keychains & souvenirs."
+      },
+      "crafts": {
+        "title": "Traditional Crafts",
+        "description": "Traditional musical handmade cultural crafts."
+      }
+    }
+  },
+  "products": {
+    "badge": "Featured Products",
+    "title": "Handpicked for You",
+    "description": "A curated selection of our finest Balinese creations, each handmade with care and cultural authenticity.",
+    "categories": {
+      "woodenStatues": "Hand-Painted Wooden Statues",
+      "balineseMagnets": "Balinese Magnets",
+      "airbrushedMagnets": "Airbrushed Magnets",
+      "calendar": "Calendar",
+      "keychains": "Keychains",
+      "ashtrays": "Ashtrays",
+      "glassware": "Glassware",
+      "musicalInstruments": "Musical Instruments",
+      "balineseMasks": "Balinese Masks",
+      "coatHooks": "Coat Hooks",
+      "hangingOrnaments": "Hanging Ornaments"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our Customers Say",
+    "description": "Trusted by buyers from around the world. Here is what they say about Ani's Collection.",
+    "items": {
+      "emily": {
+        "country": "Australia",
+        "review": "Exceptional quality and authentic Balinese artistry. The wooden dragon statue I purchased is a true masterpiece. International shipping was smooth and the packaging was excellent. Highly recommended!"
+      },
+      "alexander": {
+        "country": "Russia",
+        "review": "Exceptional quality and authentic Balinese artistry. The wooden dragon statue I purchased is a true masterpiece. International shipping was smooth and the packaging was excellent. Highly recommended!"
+      },
+      "maria": {
+        "country": "Spain",
+        "review": "Exceptional quality and authentic Balinese artistry. The wooden dragon statue I purchased is a true masterpiece. International shipping was smooth and the packaging was excellent. Highly recommended!"
+      }
+    }
+  },
+  "partners": {
+    "badge": "Partners",
+    "title": "Our Trusted Partners",
+    "description": "Proud to collaborate with leading retail partners across Indonesia and beyond.",
+    "items": {
+      "mppa": {
+        "description": "Matahari Putra Prima"
+      },
+      "cocoMart": {
+        "description": "Premium Retail Store"
+      },
+      "megaArt": {
+        "description": "Art & Crafts Gallery"
+      },
+      "baliHomeIndustri": {
+        "description": "Home Decor Specialist"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Get In Touch",
+    "description": "Visit our store, reach out on WhatsApp, or connect on social media. We would love to hear from you.",
+    "address": "Jl. Raya Mas No. 29, Ubud, Gianyar, Bali 80571, Indonesia",
+    "whatsapp": "Chat on WhatsApp",
+    "followUs": "Follow Us"
+  },
+  "footer": {
+    "tagline": "Bali Handicrafts",
+    "description": "Authentic handmade Balinese crafts created with care, tradition, and cultural pride since 1997.",
+    "quickLinks": "Quick Links",
+    "gallery": "Gallery",
+    "followUs": "Follow Us",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "copyrightPrefix": "© 2024 Ani's Collection.",
+    "copyright": "All rights reserved.",
+    "backToTop": "Back to Top"
   }
 }

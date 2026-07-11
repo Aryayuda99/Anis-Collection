@@ -27,11 +27,11 @@ function Footer() {
               <div>
 
                 <h3 className="font-serif text-[18px] font-bold text-white">
-                  Ani's Collection
+                  {t("brand.name")}
                 </h3>
 
                 <p className="mt-1 text-[10px] uppercase tracking-[2px] text-white/40">
-                  Bali Handicrafts
+                  {t("footer.tagline")}
                 </p>
 
               </div>
@@ -55,27 +55,27 @@ function Footer() {
             <div className="mt-6 grid grid-cols-2 gap-y-4">
 
               <a href="#home" className="text-white/60 transition hover:text-secondary">
-                {t("nav.home")}
+                {t("navbar.home")}
               </a>
 
               <a href="#about" className="text-white/60 transition hover:text-secondary">
-                {t("nav.about")}
+                {t("navbar.about")}
               </a>
 
               <a href="#products" className="text-white/60 transition hover:text-secondary">
-                {t("nav.products")}
+                {t("navbar.products")}
               </a>
 
               <a href="#gallery" className="text-white/60 transition hover:text-secondary">
-                {t("nav.gallery")}
+                {t("footer.gallery")}
               </a>
 
               <a href="#testimonials" className="text-white/60 transition hover:text-secondary">
-                {t("nav.testimonials")}
+                {t("navbar.testimonials")}
               </a>
 
               <a href="#contact" className="text-white/60 transition hover:text-secondary">
-                {t("nav.contact")}
+                {t("navbar.contact")}
               </a>
 
             </div>
@@ -98,7 +98,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="rounded-full border border-white/15 px-5 py-2 text-[12px] text-white/70 transition hover:border-secondary hover:text-secondary"
             >
-              Instagram
+              {t("footer.instagram")}
             </a>
 
             <a
@@ -107,13 +107,13 @@ function Footer() {
               rel="noopener noreferrer"
               className="rounded-full border border-white/15 px-5 py-2 text-[12px] text-white/70 transition hover:border-secondary hover:text-secondary"
             >
-              WhatsApp
+              {t("footer.whatsapp")}
             </a>
 
             </div>
 
             <p className="mt-10 max-w-[330px] text-[12px] leading-6 text-white/30">
-              Jl. Raya Mas No. 29, Ubud, Gianyar, Bali 80571, Indonesia
+              {t("contact.address")}
             </p>
 
           </div>
@@ -129,7 +129,7 @@ function Footer() {
         <div className="mt-6 flex flex-col items-center justify-between gap-4 text-[12px] text-white/40 lg:flex-row">
 
           <p>
-            © 2024 Ani's Collection. {t("footer.copyright")}
+            {t("footer.copyrightPrefix")} {t("footer.copyright")}
           </p>
 
           <a

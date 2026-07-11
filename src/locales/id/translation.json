@@ -1,11 +1,16 @@
-﻿{
+{
+  "brand": {
+    "name": "Ani's Collection"
+  },
   "navbar": {
     "home": "Beranda",
     "about": "Tentang",
     "products": "Produk",
     "testimonials": "Testimoni",
     "contact": "Kontak",
-    "order": "Pesan via WhatsApp"
+    "order": "Pesan via WhatsApp",
+    "logoAlt": "Ani's Collection",
+    "tagline": "KERAJINAN BALI"
   },
   "hero": {
     "badge": "Berdiri Sejak 1997",
@@ -18,6 +23,113 @@
   "about": {
     "title": "Melestarikan Warisan Kerajinan Bali Sejak 1997",
     "paragraph1": "Ani's Collection didirikan pada tahun 1997 dengan tujuan menghadirkan keindahan kerajinan tangan khas Bali kepada dunia. Berawal dari usaha keluarga di Bali, kini kami dipercaya oleh pelanggan dari berbagai negara berkat kualitas dan keaslian setiap karya.",
-    "paragraph2": "Setiap produk dibuat secara handmade oleh pengrajin lokal menggunakan teknik tradisional yang diwariskan turun-temurun. Kami berkomitmen melestarikan budaya Bali melalui karya berkualitas yang memadukan nilai seni, tradisi, dan keindahan."
+    "paragraph2": "Setiap produk dibuat secara handmade oleh pengrajin lokal menggunakan teknik tradisional yang diwariskan turun-temurun. Kami berkomitmen melestarikan budaya Bali melalui karya berkualitas yang memadukan nilai seni, tradisi, dan keindahan.",
+    "imageAlt": "Tentang Ani's Collection"
+  },
+  "stats": {
+    "yearFounded": "Tahun Berdiri",
+    "handmadeProducts": "Produk Handmade",
+    "retailPartners": "Mitra Retail",
+    "yearsExperience": "Tahun Pengalaman"
+  },
+  "collections": {
+    "badge": "Koleksi Kami",
+    "title": "Jelajahi Pilihan Kami",
+    "description": "Kerajinan tangan Bali autentik, setiap karya dibuat dengan ketulusan dan kebanggaan budaya.",
+    "explore": "Jelajahi",
+    "items": {
+      "statues": {
+        "title": "Patung & Ukiran",
+        "description": "Patung & ukiran handmade."
+      },
+      "masks": {
+        "title": "Topeng & Dekor",
+        "description": "Topeng dan dekor handmade."
+      },
+      "souvenirs": {
+        "title": "Suvenir & Hadiah",
+        "description": "Magnet, mug, dan suvenir."
+      },
+      "crafts": {
+        "title": "Kerajinan Tradisi",
+        "description": "Alat musik & kerajinan budaya."
+      }
+    }
+  },
+  "products": {
+    "badge": "Produk Unggulan",
+    "title": "Pilihan Istimewa untuk Anda",
+    "description": "Pilihan karya terbaik Bali dari kami, masing-masing dibuat secara handmade dengan ketelitian dan keaslian budaya.",
+    "categories": {
+      "woodenStatues": "Patung Kayu Lukis",
+      "balineseMagnets": "Magnet Bali",
+      "airbrushedMagnets": "Magnet Airbrush",
+      "calendar": "Kalender",
+      "keychains": "Gantungan Kunci",
+      "ashtrays": "Asbak",
+      "glassware": "Gelas",
+      "musicalInstruments": "Alat Musik",
+      "balineseMasks": "Topeng Bali",
+      "coatHooks": "Gantungan Baju",
+      "hangingOrnaments": "Hiasan Gantung"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimoni",
+    "title": "Kata Pelanggan Kami",
+    "description": "Dipercaya oleh pembeli dari berbagai negara. Inilah pendapat mereka tentang Ani's Collection.",
+    "items": {
+      "emily": {
+        "country": "Australia",
+        "review": "Kualitasnya luar biasa dan seni Balinya sangat autentik. Patung naga kayu yang saya beli benar-benar sebuah mahakarya. Pengiriman internasional lancar dan kemasannya sangat baik. Sangat direkomendasikan!"
+      },
+      "alexander": {
+        "country": "Rusia",
+        "review": "Kualitasnya luar biasa dan seni Balinya sangat autentik. Patung naga kayu yang saya beli benar-benar sebuah mahakarya. Pengiriman internasional lancar dan kemasannya sangat baik. Sangat direkomendasikan!"
+      },
+      "maria": {
+        "country": "Spanyol",
+        "review": "Kualitasnya luar biasa dan seni Balinya sangat autentik. Patung naga kayu yang saya beli benar-benar sebuah mahakarya. Pengiriman internasional lancar dan kemasannya sangat baik. Sangat direkomendasikan!"
+      }
+    }
+  },
+  "partners": {
+    "badge": "Mitra",
+    "title": "Mitra Tepercaya Kami",
+    "description": "Kami bangga berkolaborasi dengan mitra retail terkemuka di Indonesia dan luar negeri.",
+    "items": {
+      "mppa": {
+        "description": "Matahari Putra Prima"
+      },
+      "cocoMart": {
+        "description": "Toko Retail Premium"
+      },
+      "megaArt": {
+        "description": "Galeri Seni & Kerajinan"
+      },
+      "baliHomeIndustri": {
+        "description": "Spesialis Dekorasi Rumah"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Hubungi Kami",
+    "title": "Mari Terhubung",
+    "description": "Kunjungi toko kami, hubungi lewat WhatsApp, atau terhubung melalui media sosial. Kami senang mendengar dari Anda.",
+    "address": "Jl. Raya Mas No. 29, Ubud, Gianyar, Bali 80571, Indonesia",
+    "whatsapp": "Chat di WhatsApp",
+    "followUs": "Ikuti Kami"
+  },
+  "footer": {
+    "tagline": "Kerajinan Bali",
+    "description": "Kerajinan tangan Bali autentik yang dibuat dengan ketelitian, tradisi, dan kebanggaan budaya sejak 1997.",
+    "quickLinks": "Tautan Cepat",
+    "gallery": "Galeri",
+    "followUs": "Ikuti Kami",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "copyrightPrefix": "© 2024 Ani's Collection.",
+    "copyright": "Seluruh hak cipta dilindungi.",
+    "backToTop": "Kembali ke Atas"
   }
 }

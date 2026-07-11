@@ -1,22 +1,22 @@
 export const collections = [
   {
     icon: "🗿",
-    title: "Statues & Sculptures",
-    description: "Handcrafted statues & carvings.",
+    titleKey: "collections.items.statues.title",
+    descriptionKey: "collections.items.statues.description",
   },
   {
     icon: "🎭",
-    title: "Masks & Wall Decor",
-    description: "Traditional masks and handcrafted wall decor.",
+    titleKey: "collections.items.masks.title",
+    descriptionKey: "collections.items.masks.description",
   },
   {
     icon: "🎁",
-    title: "Souvenirs & Gifts",
-    description: "Authentic magnets, mugs, keychains & souvenirs.",
+    titleKey: "collections.items.souvenirs.title",
+    descriptionKey: "collections.items.souvenirs.description",
   },
   {
     icon: "🎵",
-    title: "Traditional Crafts",
-    description: "Traditional musical handmade cultural crafts.",
+    titleKey: "collections.items.crafts.title",
+    descriptionKey: "collections.items.crafts.description",
   },
 ];

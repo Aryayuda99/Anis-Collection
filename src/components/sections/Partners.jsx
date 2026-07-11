@@ -3,19 +3,19 @@ import { useTranslation } from "react-i18next";
 const partners = [
   {
     name: "MPPA",
-    desc: "Matahari Putra Prima",
+    descKey: "partners.items.mppa.description",
   },
   {
     name: "COCO MART",
-    desc: "Premium Retail Store",
+    descKey: "partners.items.cocoMart.description",
   },
   {
     name: "Mega Art",
-    desc: "Art & Crafts Gallery",
+    descKey: "partners.items.megaArt.description",
   },
   {
     name: "Bali Home Industri",
-    desc: "Home Décor Specialist",
+    descKey: "partners.items.baliHomeIndustri.description",
   },
 ];
 
@@ -33,11 +33,11 @@ function Partner() {
         <div className="text-center">
 
           <span className="inline-flex rounded-full bg-primary/10 px-5 py-2 text-[11px] font-semibold uppercase tracking-[2.5px] text-primary">
-            Partners
+            {t("partners.badge")}
           </span>
 
           <h2 className="mt-7 font-serif text-[44px] font-bold text-dark">
-            Our Trusted Partners
+            {t("partners.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
@@ -49,8 +49,7 @@ function Partner() {
           </div>
 
           <p className="mx-auto mt-8 max-w-[576px] text-[18px] leading-[29px] text-text/70">
-            Proud to collaborate with leading retail partners across Indonesia
-            and beyond.
+            {t("partners.description")}
           </p>
 
         </div>
@@ -85,7 +84,7 @@ function Partner() {
               </h3>
 
               <p className="mt-2 text-center text-[12px] text-text/70">
-                {partner.desc}
+                {t(partner.descKey)}
               </p>
 
             </div>

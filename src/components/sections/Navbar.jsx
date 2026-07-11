@@ -15,17 +15,17 @@ export default function Navbar() {
 
           <img
             src={logo}
-            alt="Ani's Collection"
+            alt={t("navbar.logoAlt")}
             className="h-12 w-12 object-contain"
           />
 
           <div>
             <h1 className="font-semibold text-red-500">
-              Ani's Collection
+              {t("brand.name")}
             </h1>
 
             <p className="text-xs tracking-[3px] text-white/80">
-              BALI HANDICRAFTS
+              {t("navbar.tagline")}
             </p>
           </div>
 

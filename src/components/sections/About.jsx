@@ -21,7 +21,7 @@ function About() {
 
             <img
               src={aboutImage}
-              alt="About Ani's Collection"
+              alt={t("about.imageAlt")}
               className="h-[525px] w-[525px] rounded-[30px] object-cover object-center"
             />
 

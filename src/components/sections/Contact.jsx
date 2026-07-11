@@ -21,11 +21,11 @@ function Contact() {
         <div className="text-center">
 
           <span className="inline-flex rounded-full bg-primary/10 px-5 py-2 text-[11px] font-semibold uppercase tracking-[2.5px] text-primary">
-            Contact Us
+            {t("contact.badge")}
           </span>
 
           <h2 className="mt-7 font-serif text-[44px] font-bold text-dark">
-            Get In Touch
+            {t("contact.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
@@ -37,8 +37,7 @@ function Contact() {
           </div>
 
           <p className="mx-auto mt-8 max-w-[576px] text-[18px] leading-[29px] text-text/70">
-            Visit our store, reach out on WhatsApp, or connect on social
-            media. We would love to hear from you.
+            {t("contact.description")}
           </p>
 
         </div>
@@ -60,9 +59,7 @@ function Contact() {
               </div>
 
               <p className="text-[14px] font-medium text-text">
-                Jl. Raya Mas No. 29,
-                Ubud, Gianyar, Bali 80571,
-                Indonesia
+                {t("contact.address")}
               </p>
 
             </div>
@@ -114,7 +111,7 @@ function Contact() {
                 hover:bg-[#20bb5b]
               "
             >
-              Chat on WhatsApp
+              {t("contact.whatsapp")}
             </a>
 
             {/* Social */}
@@ -122,7 +119,7 @@ function Contact() {
             <div className="mt-10">
 
               <p className="mb-5 text-[12px] font-semibold uppercase tracking-[1.2px] text-text">
-                Follow Us
+                {t("contact.followUs")}
               </p>
 
               <div className="flex gap-4">
