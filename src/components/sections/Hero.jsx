@@ -60,13 +60,18 @@ export default function Hero() {
           {/* Buttons */}
           <div className="mt-12 flex flex-wrap justify-center gap-6">
 
-            <button className="rounded-full bg-[#C83C3C] px-12 py-4 font-semibold text-white transition hover:bg-red-800">
+            <a href="#products" className="rounded-full bg-[#C83C3C] px-12 py-4 font-semibold text-white transition hover:bg-red-800">
               {t("hero.button1")}
-            </button>
+            </a>
 
-            <button className="rounded-full border border-white px-12 py-4 font-semibold text-white transition hover:bg-white hover:text-[#3A2622]">
+            <a
+              href="https://wa.me/628113882935"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white px-12 py-4 font-semibold text-white transition hover:bg-white hover:text-[#3A2622]"
+            >
               {t("hero.button2")}
-            </button>
+            </a>
 
           </div>
 

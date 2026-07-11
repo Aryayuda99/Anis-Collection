@@ -102,7 +102,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://wa.me/6283116088433"
+              href="https://wa.me/628113882935"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-white/15 px-5 py-2 text-[12px] text-white/70 transition hover:border-secondary hover:text-secondary"

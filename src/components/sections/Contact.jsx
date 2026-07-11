@@ -98,7 +98,7 @@ function Contact() {
             {/* WhatsApp */}
 
             <a
-              href="https://wa.me/6283116088433"
+              href="https://wa.me/628113882935"
               target="_blank"
               rel="noopener noreferrer"
               className="

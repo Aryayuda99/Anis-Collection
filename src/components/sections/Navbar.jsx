@@ -86,11 +86,6 @@ export default function Navbar() {
 
           </div>
 
-          {/* WhatsApp Button */}
-          <button className="rounded-full bg-red-700 px-6 py-3 text-white duration-300 hover:bg-red-800">
-            {t("navbar.order")}
-          </button>
-
         </div>
 
         {/* Mobile */}
