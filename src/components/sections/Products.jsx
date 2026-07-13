@@ -103,7 +103,7 @@ function Products() {
   return (
     <section
       id="products"
-      className="bg-white py-28"
+      className="bg-white py-16 sm:py-20 lg:py-28"
     >
       <div className="mx-auto max-w-[1180px] px-6">
 
@@ -115,17 +115,17 @@ function Products() {
             {t("products.badge")}
           </span>
 
-          <h2 className="mt-7 font-serif text-[44px] font-bold text-dark">
+          <h2 className="mt-6 font-serif text-[34px] font-bold text-dark sm:mt-7 sm:text-[44px]">
             {t("products.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
-            <span className="h-px w-[150px] bg-secondary"></span>
+            <span className="h-px w-20 bg-secondary sm:w-[150px]"></span>
             <span className="h-[10px] w-[10px] rotate-45 bg-secondary"></span>
-            <span className="h-px w-[150px] bg-secondary"></span>
+            <span className="h-px w-20 bg-secondary sm:w-[150px]"></span>
           </div>
 
-          <p className="mx-auto mt-8 max-w-[560px] text-[18px] leading-8 text-text/70">
+          <p className="mx-auto mt-8 max-w-[560px] text-base leading-7 text-text/70 sm:text-[18px] sm:leading-8">
             {t("products.description")}
           </p>
 
@@ -133,17 +133,17 @@ function Products() {
 
         {/* Categories */}
 
-        <div className="mt-24 space-y-24">
+        <div className="mt-14 space-y-16 sm:mt-20 sm:space-y-20 lg:mt-24 lg:space-y-24">
 
           {products.map((category) => (
 
             <div key={category.titleKey}>
 
-              <div className="mb-12 flex items-center justify-center gap-3">
+              <div className="mb-8 flex items-center justify-center gap-3 sm:mb-10 lg:mb-12">
 
                 <span className="text-secondary">✦ ✦</span>
 
-                <h3 className="font-serif text-[24px] font-bold text-dark">
+                <h3 className="text-center font-serif text-[22px] font-bold text-dark sm:text-[24px]">
                   {t(category.titleKey)}
                 </h3>
 
@@ -152,10 +152,10 @@ function Products() {
               </div>
 
 <div
-  className={`grid gap-8 ${
+  className={`grid gap-4 sm:gap-6 lg:gap-8 ${
     category.images.length === 3
-      ? "mx-auto max-w-[820px] grid-cols-3"
-      : "grid-cols-2 md:grid-cols-4"
+      ? "grid-cols-2 sm:mx-auto sm:max-w-[820px] sm:grid-cols-3"
+      : "grid-cols-2 lg:grid-cols-4"
   }`}
 >
   {category.images.map((image, index) => (
@@ -178,17 +178,17 @@ function Products() {
 
           {/* Coat Hooks + Hanging Ornaments */}
 
-          <div className="grid gap-16 lg:grid-cols-2">
+          <div className="grid gap-12 sm:gap-14 lg:grid-cols-2 lg:gap-16">
 
             {/* Coat Hooks */}
 
             <div>
 
-              <div className="mb-10 flex items-center justify-center gap-3">
+              <div className="mb-8 flex items-center justify-center gap-3 lg:mb-10">
 
                 <span className="text-secondary">✦ ✦</span>
 
-                <h3 className="font-serif text-[24px] font-bold text-dark">
+                <h3 className="text-center font-serif text-[22px] font-bold text-dark sm:text-[24px]">
                   {t("products.categories.coatHooks")}
                 </h3>
 
@@ -196,7 +196,7 @@ function Products() {
 
               </div>
 
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
 
                 {[gantunganbaju1, gantunganbaju2].map((image, index) => (
 
@@ -223,11 +223,11 @@ function Products() {
 
             <div>
 
-              <div className="mb-10 flex items-center justify-center gap-3">
+              <div className="mb-8 flex items-center justify-center gap-3 lg:mb-10">
 
                 <span className="text-secondary">✦ ✦</span>
 
-                <h3 className="font-serif text-[24px] font-bold text-dark">
+                <h3 className="text-center font-serif text-[22px] font-bold text-dark sm:text-[24px]">
                   {t("products.categories.hangingOrnaments")}
                 </h3>
 
@@ -235,7 +235,7 @@ function Products() {
 
               </div>
 
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
 
                 {[gantung1, gantung2].map((image, index) => (
 

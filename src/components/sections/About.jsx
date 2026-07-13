@@ -7,41 +7,46 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-background py-[90px]"
+      className="bg-background py-16 sm:py-20 lg:py-[90px]"
     >
-      <div className="mx-auto max-w-[1147px]">
+      <div className="mx-auto max-w-[1147px] px-6 lg:px-0">
 
-        <div className="grid grid-cols-[525px_545px] items-start gap-[77px]">
+        <div className="grid items-start gap-12 lg:grid-cols-[525px_545px] lg:gap-[77px]">
 
           {/* IMAGE */}
-          <div className="relative w-[525px]">
+          <div className="relative mx-auto w-full max-w-[525px] lg:mx-0 lg:w-[525px]">
 
             {/* Top Left Corner */}
-            <span className="absolute -left-6 -top-6 h-[79px] w-[78px] rounded-tl-[20px] border-l border-t border-secondary" />
+            <span className="absolute -left-3 -top-3 h-14 w-14 rounded-tl-[20px] border-l border-t border-secondary sm:-left-6 sm:-top-6 sm:h-[79px] sm:w-[78px]" />
 
             <img
               src={aboutImage}
               alt={t("about.imageAlt")}
-              className="h-[525px] w-[525px] rounded-[30px] object-cover object-center"
+              className="aspect-square h-auto w-full rounded-[24px] object-cover object-center sm:rounded-[30px] lg:h-[525px] lg:w-[525px]"
             />
 
             {/* Bottom Right Corner */}
-            <span className="absolute -bottom-6 -right-6 h-[79px] w-[78px] rounded-br-[20px] border-b border-r border-secondary" />
+            <span className="absolute -bottom-3 -right-3 h-14 w-14 rounded-br-[20px] border-b border-r border-secondary sm:-bottom-6 sm:-right-6 sm:h-[79px] sm:w-[78px]" />
 
           </div>
 
           {/* CONTENT */}
-          <div className="w-[545px]">
+          <div className="w-full lg:w-[545px]">
 
             <h2
               className="
-                w-[401px]
+                w-full
                 font-serif
                 font-bold
-                text-[48px]
-                leading-[64px]
+                text-[34px]
+                leading-[46px]
                 tracking-[1px]
                 text-dark
+                sm:text-[42px]
+                sm:leading-[56px]
+                lg:w-[401px]
+                lg:text-[48px]
+                lg:leading-[64px]
               "
             >
               {t("about.title")}
@@ -56,13 +61,13 @@ function About() {
 
             </div>
 
-            <div className="w-[545px] space-y-7">
+            <div className="w-full space-y-6 lg:w-[545px] lg:space-y-7">
 
-              <p className="text-[16px] leading-[38px] text-text/80">
+              <p className="text-[16px] leading-8 text-text/80 lg:leading-[38px]">
                 {t("about.paragraph1")}
               </p>
 
-              <p className="text-[16px] leading-[38px] text-text/80">
+              <p className="text-[16px] leading-8 text-text/80 lg:leading-[38px]">
                 {t("about.paragraph2")}
               </p>
 

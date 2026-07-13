@@ -25,7 +25,7 @@ function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="bg-dark py-28"
+      className="bg-dark py-16 sm:py-20 lg:py-28"
     >
       <div className="mx-auto max-w-[1180px] px-6">
 
@@ -36,24 +36,24 @@ function Testimonials() {
             {t("testimonials.badge")}
           </span>
 
-          <h2 className="mt-7 font-serif text-[44px] font-bold text-[#FFF8F0]">
+          <h2 className="mt-6 font-serif text-[34px] font-bold text-[#FFF8F0] sm:mt-7 sm:text-[44px]">
             {t("testimonials.title")}
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-4">
-            <span className="h-px w-[125px] bg-secondary"></span>
+            <span className="h-px w-20 bg-secondary sm:w-[125px]"></span>
             <span className="h-[10px] w-[10px] rotate-45 bg-secondary"></span>
-            <span className="h-px w-[125px] bg-secondary"></span>
+            <span className="h-px w-20 bg-secondary sm:w-[125px]"></span>
           </div>
 
-          <p className="mx-auto mt-8 max-w-[560px] text-[18px] leading-8 text-white/70">
+          <p className="mx-auto mt-8 max-w-[560px] text-base leading-7 text-white/70 sm:text-[18px] sm:leading-8">
             {t("testimonials.description")}
           </p>
 
         </div>
 
         {/* Cards */}
-        <div className="mt-20 grid gap-8 lg:grid-cols-3">
+        <div className="mt-12 grid gap-6 sm:mt-16 sm:grid-cols-2 lg:mt-20 lg:grid-cols-3 lg:gap-8">
 
           {testimonials.map((item, index) => (
 
@@ -64,7 +64,8 @@ function Testimonials() {
                 border
                 border-white/10
                 bg-white/5
-                p-8
+                p-6
+                sm:p-8
                 backdrop-blur-sm
                 transition-all
                 duration-300
@@ -73,7 +74,7 @@ function Testimonials() {
               "
             >
 
-              <p className="min-h-[210px] text-[18px] leading-8 text-white/70">
+              <p className="text-base leading-8 text-white/70 lg:min-h-[210px] lg:text-[18px]">
                 "{t(item.reviewKey)}"
               </p>
 

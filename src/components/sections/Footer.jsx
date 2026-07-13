@@ -5,18 +5,18 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-[#2C1A17] pt-20 pb-8">
+    <footer className="bg-[#2C1A17] pt-14 pb-8 sm:pt-16 lg:pt-20">
       <div className="mx-auto max-w-[1220px] px-6">
 
         {/* Top */}
 
-        <div className="grid gap-14 lg:grid-cols-[1.2fr_1fr_1fr]">
+        <div className="grid gap-10 text-center sm:gap-12 lg:grid-cols-[1.2fr_1fr_1fr] lg:gap-14 lg:text-left">
 
           {/* Logo */}
 
           <div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center gap-3 lg:justify-start">
 
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary">
                 <span className="font-serif text-[16px] font-bold text-white">
@@ -38,7 +38,7 @@ function Footer() {
 
             </div>
 
-            <p className="mt-6 max-w-[320px] text-[14px] leading-7 text-white/55">
+            <p className="mx-auto mt-6 max-w-[320px] text-[14px] leading-7 text-white/55 lg:mx-0">
               {t("footer.description")}
             </p>
 
@@ -52,7 +52,7 @@ function Footer() {
               {t("footer.quickLinks")}
             </h4>
 
-            <div className="mt-6 grid grid-cols-2 gap-y-4">
+            <div className="mx-auto mt-6 grid max-w-[320px] grid-cols-2 gap-y-4 lg:mx-0">
 
               <a href="#home" className="text-white/60 transition hover:text-secondary">
                 {t("navbar.home")}
@@ -90,7 +90,7 @@ function Footer() {
               {t("footer.followUs")}
             </h4>
 
-            <div className="mt-6 flex gap-3">
+            <div className="mt-6 flex justify-center gap-3 lg:justify-start">
 
             <a
               href="https://www.instagram.com/aniscollection.bali"
@@ -112,7 +112,7 @@ function Footer() {
 
             </div>
 
-            <p className="mt-10 max-w-[330px] text-[12px] leading-6 text-white/30">
+            <p className="mx-auto mt-10 max-w-[330px] text-[12px] leading-6 text-white/30 lg:mx-0">
               {t("contact.address")}
             </p>
 
@@ -122,11 +122,11 @@ function Footer() {
 
         {/* Divider */}
 
-        <div className="mt-16 border-t border-white/10"></div>
+        <div className="mt-10 border-t border-white/10 lg:mt-16"></div>
 
         {/* Bottom */}
 
-        <div className="mt-6 flex flex-col items-center justify-between gap-4 text-[12px] text-white/40 lg:flex-row">
+        <div className="mt-6 flex flex-col items-center justify-between gap-4 text-center text-[12px] text-white/40 lg:flex-row lg:text-left">
 
           <p>
             {t("footer.copyrightPrefix")} {t("footer.copyright")}
